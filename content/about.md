@@ -1,13 +1,12 @@
 ---
-title: "{{ replace .TranslationBaseName "-" " " | title }}"
-date: {{ .Date }}
-lastmod: {{ .Date }}
-draft: true
+title: "About"
+date: 2018-02-25T21:14:50+08:00
+lastmod: 2018-02-25T21:14:50+08:00
 keywords: []
-description: ""
+description: "都是些什么呢？"
 tags: []
 categories: []
-author: ""
+author: "Sidney Zhang"
 
 # You can also close(false) or open(true) something for this content.
 # P.S. comment can only be closed
@@ -22,4 +21,8 @@ mathjax: false
 mathjaxEnableSingleDollar: false
 ---
 
+都有些什么呢？
+
 <!--more-->
+
+这就是关于的内容。关于我。

@@ -2,6 +2,23 @@
 title: "My First Post"
 date: 2018-02-25T20:50:34+08:00
 draft: true
+keywords: []
+description: "First ~ Hello World"
+tags: ["First Time", "Testing"]
+categories: ["无"]
+author: "Sidney Zhang"
+
+# You can also close(false) or open(true) something for this content.
+# P.S. comment can only be closed
+comment: false
+toc: true
+autoCollapseToc: false
+postMetaInFooter: false
+# You can also define another contentCopyright. e.g. contentCopyright: "This is another copyright."
+contentCopyright: false
+reward: false
+mathjax: true
+mathjaxEnableSingleDollar: true
 ---
 
 # Hello World
@@ -9,6 +26,8 @@ draft: true
 这是测试，也是Hugo的Hello World～
 
 我应该会在这里测试很多东西。比如标注、数学公式、音乐、视频、代码块、图片。其他的我用的不多，这些如果ok了，其他也就ok了，没有别的问题，就只在这里测试这些了。
+
+<!--more-->
 
 ### 数学公式
 
