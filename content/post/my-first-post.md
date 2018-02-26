@@ -1,20 +1,15 @@
 ---
 title: "My First Post"
 date: 2018-02-25T20:50:34+08:00
-draft: true
-keywords: []
+keywords: ["testing"]
 description: "First ~ Hello World"
 tags: ["First Time", "Testing"]
 categories: ["无"]
 author: "Sidney Zhang"
-
-# You can also close(false) or open(true) something for this content.
-# P.S. comment can only be closed
 comment: false
 toc: true
 autoCollapseToc: false
 postMetaInFooter: false
-# You can also define another contentCopyright. e.g. contentCopyright: "This is another copyright."
 contentCopyright: false
 reward: false
 mathjax: true

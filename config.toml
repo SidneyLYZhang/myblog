@@ -40,12 +40,22 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
   weight = 40
   identifier = "categories"
   url = "/categories/"
+[[menu.main]]
+  name = "Resume"
+  weight = 50
+  identifier = "resume"
+  url = "/resume/"
+[[menu.main]]
+  name = "About"
+  weight = 60
+  identifier = "about"
+  url = "/about/"
 
 [params]
   version = "3.x"           # Used to give a friendly message when you have an incompatible update
   debug = false             # If true, load `eruda.min.js`. See https://github.com/liriliri/eruda
 
-  since = "2017"            # Site creation time          # 站点建立时间
+  since = "2012"            # Site creation time          # 站点建立时间
 
   # site info (optional)                                  # 站点信息（可选，不需要的可以直接注释掉）
   logoTitle = "Nought"        # default: the title value    # 默认值: 上面设置的title值
@@ -106,18 +116,16 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
 
   [params.social]                                         # 社交链接
     a-email = "mailto:your@email.com"
-    b-stack-overflow = "http://localhost:1313"
-    c-twitter = "http://localhost:1313"
-    d-facebook = "http://localhost:1313"
-    e-linkedin = "http://localhost:1313"
-    f-google = "http://localhost:1313"
-    g-github = "http://localhost:1313"
-    h-weibo = "http://localhost:1313"
-    i-zhihu = "http://localhost:1313"
-    j-douban = "http://localhost:1313"
-    k-pocket = "http://localhost:1313"
-    l-tumblr = "http://localhost:1313"
-    m-instagram = "http://localhost:1313"
+    b-twitter = "https://twitter.com/sidneyzhang"
+    c-facebook = "https://www.facebook.com/1520466456"
+    d-linkedin = "https://www.linkedin.com/in/liangyizhang"
+    e-google = "https://plus.google.com/+LiangyiZhang"
+    f-github = "https://github.com/SidneyLYZhang"
+    g-weibo = "https://weibo.com/234084538"
+    h-zhihu = "https://www.zhihu.com/people/SidneyZhang/"
+    i-douban = "https://www.douban.com/people/SldneyZhang/"
+    j-instagram = "https://instagram.com/sidneyzhang"
+    k-steam = "https://steamcommunity.com/id/sidneyzhang"
 
 # 将下面这段配置取消注释可以使 hugo 生成 .md 文件
 # Uncomment these options to make hugo output .md files.
