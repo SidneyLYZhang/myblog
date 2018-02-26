@@ -28,13 +28,21 @@ mathjaxEnableSingleDollar: true
 
 测试Latex公式，标准Markdown是没有支持的，但很多Markdown方言有支持。希望这里ok～
 
-$$
-x_{n-1}^2 + y_{n-1} = f(x_n)
-$$
+$$x_{n-1}^2 + y_{n-1} = f(x_n)$$
 
 ### 测试插入音乐
 
+{{% music "518896134" %}}
+
+以模式：`{{% music "28196554" %}}`生成。
+
 ### 测试插入视频
+
+只能插入Yuotube？？
+
+{{% youtube "Lln8jwTAJpg" %}}
+
+类似插入音乐的模式：`{{% youtube "Lln8jwTAJpg" %}}`生成。
 
 ### 测试代码块
 
