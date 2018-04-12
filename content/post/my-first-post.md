@@ -28,13 +28,18 @@ mathjaxEnableSingleDollar: true
 
 测试Latex公式，标准Markdown是没有支持的，但很多Markdown方言有支持。希望这里ok～
 
-$$x_{n-1}^2 + y_{n-1} = f(x_n)$$
+$$x_{n-1}^2 = f(x)$$
 
 ### 测试插入音乐
 
 {{% music "518896134" %}}
 
-以模式：`{{% music "28196554" %}}`生成。
+以如下模式生产：
+ 
+```
+{{%/* music	"28196554" */%}}
+``` 
+*代码需要去掉斜杠，因为代码块中也是这样*
 
 ### 测试插入视频
 
@@ -42,7 +47,11 @@ $$x_{n-1}^2 + y_{n-1} = f(x_n)$$
 
 {{% youtube "Lln8jwTAJpg" %}}
 
-类似插入音乐的模式：`{{% youtube "Lln8jwTAJpg" %}}`生成。
+类似插入音乐的模式：
+
+```
+{{%/* youtube	"Lln8jwTAJpg" */%}}
+``` 
 
 ### 测试代码块
 
@@ -60,4 +69,5 @@ isPrime x = head (filter (\y -> mod x y == 0) [2..x]) == x
 
 ### 测试插入图片
 
+测试图片
 
