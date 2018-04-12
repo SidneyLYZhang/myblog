@@ -1,5 +1,5 @@
 ---
-title: "Resume"
+title: "简历"
 date: 2018-02-26T23:04:39+08:00
 lastmod: 2018-02-26T23:04:39+08:00
 draft: true
@@ -16,10 +16,40 @@ toc: false
 autoCollapseToc: false
 postMetaInFooter: false
 # You can also define another contentCopyright. e.g. contentCopyright: "This is another copyright."
-contentCopyright: false
+contentCopyright: true
 reward: false
 mathjax: false
 mathjaxEnableSingleDollar: false
 ---
 
-<!--more-->
+## 简历
+
+******
+
+### You can know, who I am
+
+似乎总有很多很多的事情可以介绍，比如：我大学学的是什么，为什么没有在德国上完硕士，为什么要去德国等等等等，好多好多问题。但很多我觉得并不重要。甚至并不完全想说，认识我的，早晚会知道，不认识我的，知道这些原因也无所谓知道与否。
+
+要是想简单的了解我，一句话就够了：致力于发现更多数学定理的一个呆呆的"Data Scientist"。
+
+### My Works
+
+*拿的出手的工作，都不是在现在这个公司的事情。很无力啊……*
+
+
+
+### Work Experiences
+
+**2016.11 ～ 今	数据分析**	*in* 天津市广正海通资产管理有限公司
+
+广正是咨询公司，作为这里的数据分析主要就是为不同项目提供数据分析方案，还有就是为公司的基本管理实践技术提供数据或者数学知识上的支持。
+
+**2013.11 ～ 2016.11 数据中心主管**	*in* 天津嘉业资产管理有限公司
+
+嘉业做的是P2P，我刚来的时候这还没有数据分析，我从一个没工位的普通工作人员，到数据主管，到有十几个下属，到公司缩减编制只剩我一人为止。可以说，我经历了嘉业在数据分析上的很多变迁，甚至也感受到了嘉业由盛而衰的那种无奈。现在嘉业已经变化很大了，但从他们依然用我当时给制定的数据规则、用户识别规则等等这些，可以看到的是，逻辑业务的内核在嘉业没有变化。匹配借款理财的需求，区分不同的风险，提前发现问题，这些依然是嘉业作P2P数据分析的核心内容。
+
+### Papers
+
+*没什么顶级刊物发表我的研究，以后会有的！！！！！*
+
+### 
