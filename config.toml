@@ -115,7 +115,7 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
     alipay = "/path/to/your/alipay-qr-code.png"           # 支付宝二维码
 
   [params.social]                                         # 社交链接
-    a-email = "mailto:your@email.com"
+    a-email = "mailto:zly@lyzhang.me"
     b-twitter = "https://twitter.com/sidneyzhang"
     c-facebook = "https://www.facebook.com/1520466456"
     d-linkedin = "https://www.linkedin.com/in/liangyizhang"
