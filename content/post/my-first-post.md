@@ -16,7 +16,7 @@ mathjax: true
 mathjaxEnableSingleDollar: true
 ---
 
-# Hello World
+## Hello World
 
 这是测试，也是Hugo的Hello World～
 
