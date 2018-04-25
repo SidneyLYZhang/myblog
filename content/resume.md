@@ -36,7 +36,8 @@ mathjaxEnableSingleDollar: false
 
 *拿的出手的工作，都不是在现在这个公司的事情。很无力啊……*
 
-
+1. 地铁资产状态预测模型
+2. 交通构筑物资产状态预测模型
 
 ### Work Experiences
 
