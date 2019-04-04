@@ -2,7 +2,7 @@
 title: "数学家的Haskell教程（第零章）"
 date: 2019-01-03T11:05:21+08:00
 lastmod: 2018-01-03T11:06:21+08:00
-draft: true
+draft: false
 keywords: ["Haskell", "教程", "learn", "第零讲"]
 description: "数据科学的工作流程，主要来源自己的经验"
 tags: ["教程", "Haskell", "编程"]
@@ -51,11 +51,17 @@ Haskell，是什么呢？
 
 首先，Haskell是一门编程语言。作为编程语言，Haskell有很多自己的特点，比如：纯函数式编程啦、惰性运算啦、使用静态类型啦，等等特点。如果只是这么描述Haskell这门编程语言其实并没有什么意义，而真实有效的了解这门语言，需要的就是一个学习用的教程，所以我期望你在学完这个课程之后，能够明白Haskell是什么，它的每一个特点都代表了什么。
 
-当然，这么不负责任的甩锅以后的教程，也不太负责。所以，我还是简单的说明一些。
+当然，这么不负责任的甩锅给以后的教程，也不太负责。但是也不想直接把各种介绍直接放到大家面前，在我看来这意义不大，还会带给不了解、不熟悉编程语言的学习者以过多压力。
+
+那Haskell的历史呢？
+
+历史倒是可以简单说一下，感性的认识一下Haskell。1987年，FPCA的会议上形成了统一想法，就是建立一个新的函数式编程语言，也是从这时开始Haskell开始算是孕育了。从1990年Haskell的第一个版本诞生，经过期间数次变化，直到1999年，Haskell语言标准Haskell98发布，我感觉才逐渐有更多人加入到Haskell的演变中与扩展中。而现在所使用的Haskell语言标准Haskell2010也在这期间经过反复修订，到2010年才发布，形成我们现在看到的Haskell形态。
+
+换句话说，Haskell已经32岁了。
 
 ### 闲聊
 
-这是第0讲的内容，其实是没有所谓的练习和参考文献的。我就多闲话两句，作为一个数学系毕业的人，我个人认为Haskell是非常适合数学系讲授给学生的一门编程语言，有了在Haskell上的学习再学其他编程语言我感觉都简单了一些。不是说Haskell更难，而实Haskell更接近数学论证的逻辑，而命令式编程语言更接近数学运算的逻辑，运算的逻辑大家都用的比较多，而使用论证的逻辑的机会太少了，Haskell倒是个有趣的练习途径。
+这是第0讲的内容，其实是没有所谓的练习的。我就多闲话两句，作为一个数学系毕业的人，我个人认为Haskell是非常适合数学系讲授给学生的一门编程语言，有了在Haskell上的学习再学其他编程语言我感觉都简单了一些。不是说Haskell更难，而实Haskell更接近数学论证的逻辑，而命令式编程语言更接近数学运算的逻辑，运算的逻辑大家都用的比较多，而使用论证的逻辑的机会太少了，Haskell倒是个有趣的练习途径。
 
 当然我的这个教程不是为了数学系学生写的，不会让大家看不懂的。倒是如果你想学的快一些，根据我的经验，再多了解一些数学倒是不错的方法，当然这是对于Haskell的学习来说的。
 
@@ -74,7 +80,6 @@ Haskell，是什么呢？
 
 ### 参考文献
 
-1. https://en.wikipedia.org/wiki/Haskell_(programming_language) 
-2. Haskell
-3. PETER VAN ROY,SEIF HARIDI: Concepts, Techniques, and Models of Computer Programming (2003.6.5)
-4. 
+1. [Haskell (programming language) in wikipedia](https://en.wikipedia.org/wiki/Haskell_(programming_language))
+2. [A History of Haskell: being lazy with class](https://www.microsoft.com/en-us/research/publication/a-history-of-haskell-being-lazy-with-class/?from=http%3A%2F%2Fresearch.microsoft.com%2F~simonpj%2Fpapers%2Fhistory-of-haskell%2Findex.htm)
+3. PETER VAN ROY,SEIF HARIDI: Concepts, Techniques, and Models of Computer Programming (The MIT Press; 2003.6.5)
