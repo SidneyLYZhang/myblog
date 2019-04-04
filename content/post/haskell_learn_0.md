@@ -1,5 +1,5 @@
 ---
-title: "数学家的Haskell教程（第零章）"
+title: "我的Haskell教程（第零章）"
 date: 2019-01-03T11:05:21+08:00
 lastmod: 2018-01-03T11:06:21+08:00
 draft: false
@@ -23,7 +23,7 @@ mathjaxEnableSingleDollar: true
 ---
 
 
-### 踏出那一步
+### 1、踏出那一步
 
 想起很久以前，写过一个Haskell的学习笔记，感觉当时自己真的是很认真，整理了自己的思路写下来。当时是看着 ***Learn Haskell the Hard Way*** 开始学习Haskell的，所以这个笔记也难以摆脱其影响，有很多不那么直观的地方，需要多次实践之后，才能感觉到其中的妙处。
 
@@ -33,7 +33,7 @@ mathjaxEnableSingleDollar: true
 
 那我希望，和我学Haskell的同学也可以踏出那一步，不要害怕这个听上去很诡异的语言，不同往常思维的程序语言的讲解，最重要的一点就是不要害怕学不会。
 
-### 教程的结构
+### 2、教程的结构
 
 教程主要由导引、正文、练习、参考文献、补充阅读五个部分组成。
 
@@ -45,7 +45,7 @@ mathjaxEnableSingleDollar: true
 
 参考文献，是这一讲所涉及的关键概念和学术延伸的来源。也是帮助大家进行扩展阅读的内容，学有余力了，看看这些，绝对有意想不到的好处。最后的补充阅读是一些我认为值得一读的有关联的内容，可以帮助大家了解的更多，有些也可以用来帮助大家学习别人的技巧和方法，所以这一部分多为推荐。课后多多看书学习吧。
 
-### Haskell的简单介绍
+### 3、Haskell的简单介绍
 
 Haskell，是什么呢？
 
@@ -59,13 +59,13 @@ Haskell，是什么呢？
 
 换句话说，Haskell已经32岁了。
 
-### 闲聊
+### 4、闲聊
 
 这是第0讲的内容，其实是没有所谓的练习的。我就多闲话两句，作为一个数学系毕业的人，我个人认为Haskell是非常适合数学系讲授给学生的一门编程语言，有了在Haskell上的学习再学其他编程语言我感觉都简单了一些。不是说Haskell更难，而实Haskell更接近数学论证的逻辑，而命令式编程语言更接近数学运算的逻辑，运算的逻辑大家都用的比较多，而使用论证的逻辑的机会太少了，Haskell倒是个有趣的练习途径。
 
 当然我的这个教程不是为了数学系学生写的，不会让大家看不懂的。倒是如果你想学的快一些，根据我的经验，再多了解一些数学倒是不错的方法，当然这是对于Haskell的学习来说的。
 
-### 第1讲导引
+### 5、第1讲导引
 
 第1讲会讲基础的Haskell安装相关的内容，所以需要你先了解以下内容：
 
@@ -77,6 +77,8 @@ Haskell，是什么呢？
 1. CLI (on Wikipedia) : https://en.wikipedia.org/wiki/Command-line_interface
 2. 环境变量 (on Wikipedia) : https://en.wikipedia.org/wiki/Environment_variable
 3. Peter Van Roy : Programming Paradigms for Dummies: What Every Programmer Should Know 
+
+==========
 
 ### 参考文献
 
