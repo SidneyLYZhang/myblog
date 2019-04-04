@@ -23,6 +23,8 @@ mathjaxEnableSingleDollar: true
 ---
 
 
+## 说在前面内容
+
 ### 1、踏出那一步
 
 想起很久以前，写过一个Haskell的学习笔记，感觉当时自己真的是很认真，整理了自己的思路写下来。当时是看着 ***Learn Haskell the Hard Way*** 开始学习Haskell的，所以这个笔记也难以摆脱其影响，有很多不那么直观的地方，需要多次实践之后，才能感觉到其中的妙处。
