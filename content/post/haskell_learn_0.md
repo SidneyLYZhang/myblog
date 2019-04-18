@@ -4,7 +4,7 @@ date: 2019-01-03T11:05:21+08:00
 lastmod: 2018-01-03T11:06:21+08:00
 draft: false
 keywords: ["Haskell", "教程", "learn", "第零讲"]
-description: "数据科学的工作流程，主要来源自己的经验"
+description: "Haskell的教程，源于我实际的感受。"
 tags: ["教程", "Haskell", "编程"]
 categories: ["数学","Haskell","随笔","教程"]
 author: "Sidney Zhang"
