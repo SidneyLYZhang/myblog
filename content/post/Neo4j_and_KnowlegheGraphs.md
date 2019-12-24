@@ -17,14 +17,14 @@ autoCollapseToc: false
 postMetaInFooter: false
 # You can also define another contentCopyright. e.g. contentCopyright: "This is another copyright."
 contentCopyright: true
-reward: falseftp://neo4j.55555.io
+reward: false
 mathjax: true
 mathjaxEnableSingleDollar: true
 ---
 
 ### 废话要从头开始说
 
-最近一年，一直在忙这忙那，没有一点总结自己的时间。所以
+最近一年，一直在忙这忙那，没有一点总结自己的时间。
 
 ### 安装与配置
 

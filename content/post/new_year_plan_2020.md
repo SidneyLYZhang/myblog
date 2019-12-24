@@ -4,7 +4,7 @@ date: 2019-12-23T15:51:21+08:00
 lastmod: 2019-12-23T17:51:21+08:00
 draft: false
 keywords: ["新年计划", "plan" , "2020"]
-description: "总得积累点新东西。譬如Neoj4。譬如知识图谱。这是一份我的学习笔记。如有谬误还望海涵。"
+description: "总结和展望，还有计划。都是2019和2020的事情。"
 tags: ["新年", "计划"]
 categories: ["随笔"]
 author: "Sidney Zhang"
