@@ -42,6 +42,6 @@ mathjaxEnableSingleDollar: true
 
 ### 安装与配置
 
-
+国内下载Neo4j真心很困难，加历靠着300M的网络勉强能下载，但在公司全体员工分享200M的带宽，下载
 
 ftp://neo4j.55555.io
