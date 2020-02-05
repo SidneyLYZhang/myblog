@@ -577,6 +577,6 @@ $ sudo systemctl enable NetworkManager
 $ sudo pacman -S network-manager-applet
 ```
 
-然后，就是在字体部分，我偏向于安装“adobe source han fonts”思源字体，当然“noto fonts”也很不错。可以下载所需的字体文件，很容易通过pacman进行安装。当然，AUR中也有很多很不错的字体可供选择。
+然后，就是在字体部分，我偏向于安装“adobe source han fonts”思源字体，当然“noto fonts”也很不错。可以下载所需的字体文件，很容易通过pacman进行安装。当然，AUR中也有很多很不错的字体可供选择，可以从 [官方字体中查找](https://wiki.archlinux.org/index.php/Fonts#Chinese,_Japanese,_Korean,_Vietnamese)。
 
 还有一些便利化操作，比如添加ssh服务、自动跨越长城之类的，其实也并不复杂，都是使用systemctl启动为服务就好。这一类便利化并不大众，我也就不在这里专门说明了。
