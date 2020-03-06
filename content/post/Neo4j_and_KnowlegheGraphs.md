@@ -1,8 +1,8 @@
 ---
 title: "Neo4j与知识图谱 —— Part 1"
 date: 2019-12-23T15:36:21+08:00
-lastmod: 2019-12-23T16:20:21+08:00
-draft: true
+lastmod: 2020-03-05T16:30:21+08:00
+draft: false
 keywords: ["Neo4j", "Cypher", "CQL", "GraphQL", "Learning", "python"]
 description: "总得积累点新东西。譬如Neoj4。譬如知识图谱。这是一份我的学习笔记。如有谬误还望海涵。"
 tags: ["交流", "学习", "笔记"]
@@ -129,7 +129,7 @@ dbms.security.procedures.unrestricted=apoc.*
 
 保存之后，基本的配置就算完成了。后续需要的，就是把neo4j加入systemd的启动行列，以保证neo4j的服务可以顺利每天启动。
 
-创建服务的第一步，就是在 `/lib/systemd/system` 新建 `neo4j.service` 初始化文件：
+创建服务的第一步，就是在 `/etc/systemd/system` 新建 `neo4j.service` 初始化文件，最优解则是使用 `sudo systemctl edit neo4j.service --full --all`：
 
 ```vim
 [Unit]
@@ -142,6 +142,7 @@ ExecStart=/home/neo4j/bin/neo4j start
 ExecReload=/bin/kill -s HUP $MAINPID
 ExecStop=/home/neo4j/bin/neo4j stop
 PrivateTmp=true
+User=root
 
 [Install]
 WantedBy=multi-user.target
@@ -157,6 +158,7 @@ $ sudo chmod 754 neo4j.service
 
 ```zsh
 $ sudo systemctl daemon-reload
+$ sudo systemctl start neo4j
 $ sudo systemctl enable neo4j
 ```
 
@@ -174,4 +176,49 @@ $ sudo systemctl enable neo4j
 
 在现实社会，音视频包含的范围很广泛，粗略来说，每天都有数以万计的新内容产生，我们这里所面对的，就只限于公司有版权的这些音视频，范围立刻就缩小了很多，为了扩展数据的应用范围，需要做两件事，添加近期热门的音视频内容的数据，以及热门演员的数据。对于用户行为来说，依然是对既有音视频内容的扩展。（所以，公司这个音视频知识图谱，应该叫做垂直领域的知识图谱了吧？）
 
-对于
+所以，依照这个逻辑，人（Person）是一类节点，即可用于记录演员也可用于记录用户，他们在本质上都是Person/人。类似的，无论音乐还是电视节目，都是一类音视频产物，只是细节略有不同，他们也都可以属于各自的艺术范畴，例如：音乐、电影就可以是两个不同的范畴。也是基于这样的抽象，我们可以这样定义如下基本实体概念：
+
+1. Person ： 人，这是基本实物之一；
+2. Group ： 域/群，用来区分基本实物的抽象概念；
+3. Appearance ： 音视频内容，基本实物之一，也是主体知识图谱的核心概念；
+4. Genus : 类别，区别于群属的抽象，通俗来说就是标签，但不完全等同于通常在业务中的标签，类别强调属别之间的派生关系，末端类别才会关联实物，即存在自关联性；
+5. Company ： 公司，某一个抽象群体的代表，例如版权所属，一般并非来源个人，而是基于公司这个群体实现授权，基本实体之一。
+
+基于这样的基本实体，可以很容易的构造出基础关系模型：
+
+1. derive ： 派生，主要存在于Genus之间，用于表征Genus的从属关系；
+2. originate ： 属于，或叫“来自于”，主要用在基本实体与Group之间的划分；
+3. natural-relationship : 自然存在的关系
+   - copyright ： 版权授权，对音视频内容的授权的来源进行标记；
+   - play : 饰演/出演/演奏，最基本的Person-Appearance关系之一；
+   - sing ： 演唱，最基本的Person-Appearance关系之一；
+   - watch ： 收看，最基本的Person-Appearance关系之一；
+   - director : 导演；
+   - scenarist ： 编剧；
+   - compose : 作曲；
+   - music ： 影视作品中的音乐；
+   - producer ： 监制；
+   - staff ： 其他工作人员；
+   - issue ： 发行。
+
+超出这些实体与关系的范围，就可定义为属性。对于音视频内容，还有一个有趣的问题就是时间，应该怎么处理。在这里我把与时间有关的内容统一算作是属性的内容。那顺便可与i总结 有如下属性：
+
+* name ：名称/姓名，实体的基本属性；
+* birthday ： 生日，Person的基本属性；
+* gender ： 性别，Person的基本属性；
+* role ： 角色；
+* function ： 职能，除了工作职能（例如财务、选角导演等等）外，也表明音乐属性（间奏/插曲Interlude、主题曲themesong、结尾曲endingsong等），以及其他相关能力；
+* issuedate ： 发行日期；
+* premieredate : 首映日期；
+* firsttime ： 首次观看时间；
+* lasttime ： 最后观看时间；
+* totaltimes ： 总观看次数；
+* totallangs ： 总观看时长；
+* from ： 来源，用户来源、原著来源等；
+* duration ： 时长；
+* totalepisodes ： 总集数；
+* subtitle ： 副标题；
+* …………
+
+其中发行日期和首映日期只在特殊位置存在，所有他们都可以写作timedate，根据所处位置转换为首映还是发行日期。另外，上述内容中唯一不好理解的是 “Group-域/群” 这个概念。最后这里再做稍微的说明，除了可以用来区分用户和创作者之外，还可区分电影、电视剧这类内容区别。换句话说，Group是一个抽象概念，它以关系连接的内容表现自身。
+
