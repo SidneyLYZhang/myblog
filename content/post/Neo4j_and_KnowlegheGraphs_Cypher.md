@@ -2,7 +2,7 @@
 title: "Neo4j与知识图谱 —— Part 2"
 date: 2020-03-20T15:36:21+08:00
 lastmod: 2020-03-24T16:30:21+08:00
-draft: true
+draft: false
 keywords: ["Neo4j", "Cypher", "CQL", "GraphQL", "Learning", "python"]
 description: "总得积累点新东西。譬如Neoj4。譬如知识图谱。这是一份我的学习笔记。如有谬误还望海涵。"
 tags: ["交流", "学习", "笔记"]
