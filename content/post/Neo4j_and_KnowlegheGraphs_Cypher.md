@@ -26,7 +26,7 @@ mathjaxEnableSingleDollar: true
 
 1. [Neo4j与知识图谱 —— Part 1 ：废话、安装与设计思路](https://lyzhang.me/post/neo4j_and_knowleghegraphs/)
 2. Neo4j与知识图谱 —— Part 2 ：Cypher基础
-3. Neo4j与知识图谱 —— Part 3 ：建立数据基础
+3. [Neo4j与知识图谱 —— Part 3 ：建立数据基础](https://lyzhang.me/post/neo4j_and_knowleghegraphs_Data/)
 4. Neo4j与知识图谱 —— Part 4 ：初步应用模式
 
 ### （0）介绍
