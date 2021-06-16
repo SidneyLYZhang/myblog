@@ -1,6 +1,6 @@
 ---
 title: "Neo4j与知识图谱 —— Part 3"
-date: 2020-03-20T15:36:21+08:00
+date: 2021-06-15T15:36:21+08:00
 lastmod: 2021-06-15T16:30:21+08:00
 draft: false
 keywords: ["Neo4j", "Cypher", "CQL", "GraphQL", "Learning", "python"]
@@ -27,7 +27,7 @@ mathjaxEnableSingleDollar: true
 1. [Neo4j与知识图谱 —— Part 1 ：废话、安装与设计思路](https://lyzhang.me/post/neo4j_and_knowleghegraphs/)
 2. [Neo4j与知识图谱 —— Part 2 ：Cypher基础](https://lyzhang.me/post/neo4j_and_knowleghegraphs_Cypher/)
 3. Neo4j与知识图谱 —— Part 3 ：建立数据基础
-4. Neo4j与知识图谱 —— Part 4 ：初步应用模式
+4. [Neo4j与知识图谱 —— Part 4 ：初步应用模式](https://lyzhang.me/post/neo4j_and_knowleghegraphs_Application/)
 
 ### (1) 基础与框架
 
@@ -52,10 +52,10 @@ mathjaxEnableSingleDollar: true
 剩下的核心内容就是整合外来数据和自有数据。这个有两个有趣的方式：
 
 1. 基于正则匹配对外来数据和内部数据进行整合，对外来数据直接删减；
-2. 分别整理两个知识图谱（内部、外部），对两个图谱之间。
+2. 分别整理两个知识图谱（内部、外部），对两个图谱之间相近或完全相同的元素建立关联，最后再核对新建关系的准确性。
 
 我最终使用的方案，还是从简单的角度来做的选择，就是正则匹配的方案。
 
-### (3) 应用目标
+匹配节点本身的内容，同时，对匹配节点的其他关联内容进行比较后决定是否需要合并到内部数据形成的图谱上。这一过程可以穷举所有可能性，只是略显繁杂而已。在这过程中，考虑过使用神经网络的方式来减少匹配规则的定义，但是，在生成训练数据时，就几乎在穷举所有可能性，结果就略显多此一举了。
 
-我要尽快结束这个说明了。所以后面就尽可能简单一些说明意图了。
+至此，整个神经网络，就算粗具形态。后面就要考虑怎么用了。
