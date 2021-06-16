@@ -2,7 +2,7 @@
 title: "用上MongoDB随便做点啥"
 date: 2020-02-26T15:36:21+08:00
 lastmod: 2020-02-26T17:32:21+08:00
-draft: true
+draft: false
 keywords: ["MongoDB", "Python", "python"]
 description: "用上MongoDB，随便做点啥，不要浪费免费的服务器。"
 tags: ["学习", "笔记"]
