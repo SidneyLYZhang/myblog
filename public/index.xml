@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nought</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Nought</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>简历</title>
+      <link>http://localhost:1313/resume/</link>
+      <pubDate>Mon, 26 Feb 2018 23:04:39 +0800</pubDate>
+      
+      <guid>http://localhost:1313/resume/</guid>
+      <description>简历 You can know, who I am 似乎总有很多很多的事情可以介绍，比如：我大学学的是什么，为什么没有在德国上完硕士，为什么要去德国等等等等，好多好多问题。但很</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Sun, 25 Feb 2018 21:14:50 +0800</pubDate>
+      
+      <guid>http://localhost:1313/about/</guid>
+      <description>企者不立﹔跨者不行﹔ 自见者不明﹔自是者不彰﹔ 自伐者无功﹔自矜者不长。 其在道也，曰：余食赘形。 物或恶之，故有道者不处。 ——老子《道德经 二十四章</description>
+    </item>
+    
+  </channel>
+</rss>

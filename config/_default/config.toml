@@ -7,7 +7,7 @@ enableEmoji = true
 theme = "even"
 
 hasCJKLanguage = true     # has chinese/japanese/korean ? # 自动检测是否包含 中文\日文\韩文
-paginate = 3                                              # 首页每页显示的文章数
+paginate = 5                                              # 首页每页显示的文章数
 disqusShortname = ""      # disqus_shortname
 googleAnalytics = ""      # UA-XXXXXXXX-X
 copyright = ""            # default: author.name ↓        # 默认为下面配置的author.name ↓
@@ -20,36 +20,43 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
   priority = 0.5
   filename = "sitemap.xml"
 
-[[menu.main]]             # config your menu              # 配置目录
-  name = "Home"
-  weight = 10
-  identifier = "home"
-  url = "/"
-[[menu.main]]
-  name = "Archives"
-  weight = 20
-  identifier = "archives"
-  url = "/post/"
-[[menu.main]]
-  name = "Tags"
-  weight = 30
-  identifier = "tags"
-  url = "/tags/"
-[[menu.main]]
-  name = "Categories"
-  weight = 40
-  identifier = "categories"
-  url = "/categories/"
-[[menu.main]]
-  name = "Resume"
-  weight = 50
-  identifier = "resume"
-  url = "/resume/"
-[[menu.main]]
-  name = "About"
-  weight = 60
-  identifier = "about"
-  url = "/about/"
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name = "about hugo"
+    pre = "<i class='fa fa-heart'></i>"
+    url = "/aboutmm/"
+    weight = 110
+  [[menu.main]]             # config your menu              # 配置目录
+    name = "Home"
+    weight = 10
+    identifier = "home"
+    url = "/"
+  [[menu.main]]
+    name = "Archives"
+    weight = 20
+    identifier = "archives"
+    url = "/post/"
+  [[menu.main]]
+    name = "Tags"
+    weight = 30
+    identifier = "tags"
+    url = "/tags/"
+  [[menu.main]]
+    name = "Categories"
+    weight = 40
+    identifier = "categories"
+    url = "/categories/"
+  [[menu.main]]
+    name = "Resume"
+    weight = 50
+    identifier = "resume"
+    url = "/resume/"
+  [[menu.main]]
+    name = "About"
+    weight = 60
+    identifier = "about"
+    url = "/about/"
 
 [params]
   version = "3.x"           # Used to give a friendly message when you have an incompatible update
