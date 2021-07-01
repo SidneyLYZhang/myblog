@@ -24,9 +24,9 @@ toc:
 
 ### 笔记列表
 
-1. [Neo4j与知识图谱 —— Part 1 ：废话、安装与设计思路](https://lyzhang.me/post/neo4j_and_knowleghegraphs/)
-2. [Neo4j与知识图谱 —— Part 2 ：Cypher基础](https://lyzhang.me/post/neo4j_and_knowleghegraphs_Cypher/)
-3. [Neo4j与知识图谱 —— Part 3 ：建立数据基础](https://lyzhang.me/post/neo4j_and_knowleghegraphs_Data/)
+1. [Neo4j与知识图谱 —— Part 1 ：废话、安装与设计思路](https://lyzhang.me/neo4j_and_knowleghegraphs/)
+2. [Neo4j与知识图谱 —— Part 2 ：Cypher基础](https://lyzhang.me/neo4j_and_knowleghegraphs_Cypher/)
+3. [Neo4j与知识图谱 —— Part 3 ：建立数据基础](https://lyzhang.me/neo4j_and_knowleghegraphs_Data/)
 4. Neo4j与知识图谱 —— Part 4 ：初步应用模式
 
 因为时间已过很久，好久没有更新。主要是因为又有其他事情要做了。
@@ -45,7 +45,7 @@ toc:
 
 用户画像生成，就简单很多了。单纯的对用户行为在知识图谱上的漫步进行再现，形成用户独有的漫步图谱，再结合纠偏，就是用户的个人原始画像了。没啥技术含量，只能算是对用户行为与知识图谱的应用而已。
 
-### （2）创建应用模式
+### (2) 创建应用模式
 
 所有应用目标，都是在知识图谱提取方面展开的，对实体本身的搜索使用python直接在neo4j上查询，对结果子图基于场景再做分化。
 
