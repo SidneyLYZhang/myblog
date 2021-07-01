@@ -20,3 +20,19 @@ toc:
 ---
 
 <!--more-->
+
+### 内蕴
+
+问：“都有些什么？要说些什么？”
+
+答：“形式、结构，还有解构。”
+
+Hugo模板是以什么结构组织的，如何定义变量，如何组织变量，还有一些对这些形式的一点杂谈（杂谈可忽略）。
+
+### 语法基础
+
+### 参考
+
+官方文档：
+
+- [Introduction to Hugo Templating](https://gohugo.io/templates/introduction/)
