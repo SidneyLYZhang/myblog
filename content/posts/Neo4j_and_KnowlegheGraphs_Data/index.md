@@ -1,5 +1,5 @@
 ---
-weight: 3
+weight: 103
 title: "Neo4j与知识图谱 —— Part 3"
 date: 2021-06-15T16:30:21+08:00
 lastmod: 2021-06-15T16:30:21+08:00
