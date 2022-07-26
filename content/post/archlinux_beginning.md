@@ -22,6 +22,8 @@ mathjax: true
 mathjaxEnableSingleDollar: true
 ---
 
+Update: 2020-09-24
+
 ### 废话在前
 
 真的是人生苦短……但我用不了Manjaro……
@@ -425,7 +427,7 @@ $ swapon /swapfile
 $ vim /etc/fstab
 ```
 
-添加代码 `/swapfile none  swap  defaults  0 0` 。使用UUID的话就是把“/swapfile”换成"UUID=xxxxxx"即可。如果需要更全面的交换文件设置或者说更厉害的应用模式，就需要安装 `systemd-swap` ，按照[官方说明](https://github.com/Nefelim4ag/systemd-swap)进行设置，这里就不再多言了。
+添加代码 `/swapfile none  swap  defaults  0 0` 。无论`fstab`是否基于标签存储，对于swapfile，必须如此，这也是官方说明的，所以虽然有点迥异，但并不妨碍。如果需要更全面的交换文件设置或者说更厉害的应用模式，就需要安装 `systemd-swap` ，按照[官方说明](https://github.com/Nefelim4ag/systemd-swap)进行设置，这里就不再多言了。
 
 进一步设置我们之前安装的sudo，使用 `visudo` 进行设定。一样是vim的操作，找到 “# %wheel ALL=(ALL)ALL
 ” 这一行，删掉注释，保存退出就可以了。
