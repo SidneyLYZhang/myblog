@@ -1,6 +1,9 @@
 [submodule "themes/even"]
 	path = themes/even
 	url = https://github.com/olOwOlo/hugo-theme-even
-[submodule "themes/jane"]
-	path = themes/jane
-	url = https://github.com/xianmin/hugo-theme-jane.git
+[submodule "themes/SimpleIntro"]
+	path = themes/SimpleIntro
+	url = https://github.com/gangjun06/SimpleIntro
+[submodule "themes/LoveIt"]
+	path = themes/LoveIt
+	url = https://github.com/dillonzq/LoveIt.git
