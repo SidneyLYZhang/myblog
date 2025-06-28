@@ -1,27 +1,30 @@
 baseURL = "https://lyzhang.me"
-# [en, zh-cn, fr, pl, ...] determines default content language
-# [en, zh-cn, fr, pl, ...] 设置默认的语言
-defaultContentLanguage = "zh-cn"
-# theme
-# 主题
-theme = "LoveIt"
-# themes directory
-# 主题目录
-# themesDir = "../.."
 
-# website title
+theme = "LoveIt"
 # 网站标题
 title = "Nought"
 
-# whether to use robots.txt
+copyright = ""
+
+defaultContentLanguage = "zh-cn"
+# language code ["en", "zh-CN", "fr", "pl", ...]
+languageCode = ["en", "zh-CN", "de"]
+# language name ["English", "简体中文", "Français", "Polski", ...]
+languageName = ["English", "简体中文", "Deutsch"]
+
 # 是否使用 robots.txt
 enableRobotsTXT = true
-# whether to use git commit log
 # 是否使用 git 信息
 enableGitInfo = true
-# whether to use emoji code
 # 是否使用 emoji 代码
 enableEmoji = true
+hasCJKLanguage = true
+
+# 分页配置
+[pagination]
+  disableAliases = false
+  pagerSize = 10
+  path = "page"
 
 [languages]
   [languages.en]
@@ -437,19 +440,13 @@ enableEmoji = true
         RSS = true
 
 [params]
-  # LoveIt theme version
-  # LoveIt 主题版本
-  version = "0.2.X"
-  # site default theme ("light", "dark", "auto")
   # 网站默认主题 ("light", "dark", "auto")
   defaultTheme = "auto"
-  # public git repo url only then enableGitInfo is true
   # 公共 git 仓库路径，仅在 enableGitInfo 设为 true 时有效
   gitRepo = "https://github.com/SidneyLYZhang/myblog"
   # which hash function used for SRI, when empty, no SRI is used ("sha256", "sha384", "sha512", "md5")
   # 哪种哈希函数用来 SRI, 为空时表示不使用 SRI ("sha256", "sha384", "sha512", "md5")
-  fingerprint = ""
-  # date format
+  fingerprint = "sha512"
   # 日期格式
   dateFormat = "2006-01-02"
   # website images for Open Graph and Twitter Cards

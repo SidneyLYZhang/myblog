@@ -19,11 +19,7 @@ toc:
   auto: true
 ---
 
-<<<<<<< HEAD:content/post/archlinux_beginning.md
 Update: 2020-09-24
-=======
-<!--more-->
->>>>>>> 090bb7c3eb084bb233df8c4ab48793cb6078be56:content/posts/archlinux_beginning/index.md
 
 ### 废话在前
 
