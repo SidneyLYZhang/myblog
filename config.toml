@@ -1,6 +1,6 @@
 baseURL = "https://lyzhang.me"
 
-theme = "LoveIt"
+theme = "LoveIt_fix"
 # 网站标题
 title = "Nought"
 defaultContentLanguage = "zh-cn"
