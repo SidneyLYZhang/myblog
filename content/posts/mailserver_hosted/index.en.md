@@ -1,17 +1,17 @@
 ---
-title: "Index"
-subtitle: ""
+title: "Time to Build an Email Server"
+subtitle: "self-hosted mailserver by poste.io"
 date: 2025-07-05T14:14:45+08:00
 lastmod: 2025-07-05T14:14:45+08:00
 draft: true
-author: ""
-authorLink: ""
+author: "Sidney Zhang"
+authorLink: "https://lyzhang.me"
 description: ""
 license: ""
 images: []
 
-tags: []
-categories: []
+tags: ["mailserver","howto","beginner"]
+categories: ["notes"]
 
 featuredImage: ""
 featuredImagePreview: ""

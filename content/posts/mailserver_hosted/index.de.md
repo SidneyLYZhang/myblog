@@ -1,6 +1,6 @@
 ---
-title: "Index"
-subtitle: ""
+title: "Time to Build an Email Server"
+subtitle: "self-hosted mailserver by poste.io"
 date: 2025-07-05T14:14:45+08:00
 lastmod: 2025-07-05T14:14:45+08:00
 draft: true
@@ -10,21 +10,21 @@ description: ""
 license: ""
 images: []
 
-tags: []
-categories: []
+tags: ["mailserver","howto","beginner"]
+categories: ["notes"]
 
 featuredImage: ""
 featuredImagePreview: ""
 
 hiddenFromHomePage: false
 hiddenFromSearch: false
-twemoji: false
+twemoji: true
 lightgallery: true
 ruby: true
 fraction: true
 fontawesome: true
 linkToMarkdown: true
-rssFullText: false
+rssFullText: true
 
 toc:
   enable: true
