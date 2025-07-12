@@ -450,7 +450,7 @@ hasCJKLanguage = true
     enable = true
     # Custom content (HTML format is supported)
     # 自定义内容 (支持 HTML 格式)
-    custom = ''
+    custom = '无始斋·空'
     # whether to show Hugo and theme info
     # 是否显示 Hugo 和主题信息
     hugo = true
@@ -475,7 +475,7 @@ hasCJKLanguage = true
   [params.section]
     # date format (month and day)
     # 日期格式 (月和日)
-    dateFormat = "2018-01-02"
+    dateFormat = "01-02"
     # amount of RSS pages
     # RSS 文章数目
     rss = 2
@@ -483,7 +483,7 @@ hasCJKLanguage = true
   # List (category or tag) page config
   # List (目录或标签) 页面配置
   [params.list]
-    dateFormat = "2018-01-02"
+    dateFormat = "2000-01-02"
     # amount of RSS pages
     # RSS 文章数目
     rss = 2
@@ -713,7 +713,7 @@ hasCJKLanguage = true
       # Publisher info
       # 出版者信息
       [params.page.seo.publisher]
-        name = "xxxx"
+        name = "SidneyZhang"
         logoUrl = "/images/avatar.png"
 
   # TypeIt config
@@ -840,7 +840,7 @@ hasCJKLanguage = true
 
 # Author config
 # 作者配置
-[author]
+[params.author]
   name = "Sidney Zhang"
   email = "liangyi@me.com"
   link = "https://lyzhang.me"
