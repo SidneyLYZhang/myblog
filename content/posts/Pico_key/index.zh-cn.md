@@ -3,22 +3,22 @@ title: "做一把 Pico Key"
 subtitle: "个人开源硬件密钥 Personal Secure Key"
 date: 2025-09-07T15:52:43+08:00
 lastmod: 2025-09-07T15:52:43+08:00
-draft: true
+draft: false
 author: "Sidney Zhang"
 authorLink: "https://lyzhang.me"
 description: ""
 license: ""
 images: []
 
-tags: []
-categories: []
+tags: ["硬件密钥", "PicoKey", "RP2350", "开源硬件", "FIDO2", "OpenPGP", "安全", "DIY", "教程", "YubiKey替代品"]
+categories: ["杂文", "教程"]
 
-featuredImage: ""
-featuredImagePreview: ""
+featuredImage: "TOP-pic.png"
+featuredImagePreview: "TOP-pic.png"
 
 hiddenFromHomePage: false
 hiddenFromSearch: false
-twemoji: false
+twemoji: true
 lightgallery: true
 ruby: true
 fraction: true
@@ -46,6 +46,8 @@ comment:
   enable: true
   # ...
 ---
+
+**TLDR** 花60块买个RP2350开发板，刷入PicoKey固件，就能自制开源硬件密钥，当便宜版YubiKey用，支持FIDO2登录和OpenPGP，但硬件登录和加密功能不能同时用。详细步骤：买板子→下载固件→按住BOOT键插电脑刷固件→网页初始化配置→搞定。适合不想花几百块买YubiKey又想玩硬件密钥的穷鬼（比如我）。
 
 <!--more-->
 
@@ -172,7 +174,7 @@ CanoKey给我的感觉是现在转向直接制作实体Key出售，对于开源�
 - **LED brightness** ： `1`
 {{< /admonition >}}
 
-这个配置主要是针对硬件密钥来配置，如果是OpenPGP的话，`Secure Boot` 和 `Secure Lock` 就可以不进行使用。
+这个配置主要是针对硬件密钥来配置，如果是OpenPGP的话，`Power Cycle on Reset` 就可以不进行使用，“Product Name”也可以不填。
 
 {{< admonition type=info title="其他选项的注释说明" open=false >}}
 - `Secure Boot` 与 `Secure Lock` ：主要用于网络登录使用时的安全性
@@ -219,8 +221,8 @@ CanoKey给我的感觉是现在转向直接制作实体Key出售，对于开源�
 不过请注意一点，你需要先完成gpg密钥（含子密钥）的创建，同时需要熟悉gpg的使用。
 
 {{< admonition type=note title="设置OpenPGP 智能卡" open=true >}}
-1. 确认智能卡信息
-2. 备份要迁移的密钥，含私钥、子密钥和撤销密钥
+1. 确认智能卡信息 `gpg --card-status`
+2. 备份要迁移的密钥，含私钥、子密钥和撤销密钥 `gpg --armor --export-secret-key <KEYID> > private_keys.asc`
 3. 通过gpg命令选择子密钥，然后逐一迁移到智能卡（简单示例：`key1` -> `keytocard`）
 4. 删除迁移过的私钥
 5. 确认一下本地是否只留下了公钥
@@ -230,3 +232,22 @@ CanoKey给我的感觉是现在转向直接制作实体Key出售，对于开源�
 
 至此，就设定好智能卡了。剩下的就是使用这个设置好的智能卡了。
 使用，就要超级简单了：`gpg --edit-card`后，输入 `fetch` 自动认证一下，就可以如常时用了。
+
+更简单的使用方法，是使用[Kleopatra](https://docs.kde.org/stable5/en/kleopatra/kleopatra/index.html)来添加和使用刚刚制作好的智能卡。如果你在Windows上安装了Gpg4win，那么这个软件就已经同步安装好了。
+
+{{< admonition type=info title="原始默认PIN" open=false >}}
+- Admin PIN : 12345678
+- PIN : 123456
+
+只是似乎目前没法更改默认PIN？
+{{< /admonition >}}
+
+### 关键步骤总结
+
+{{< admonition type=note title="关键步骤总结" open=true >}}
+1. 购买合适的硬件
+2. 下载固件
+3. 刷新固件
+4. 用网页工具初始化硬件
+5. 测试并开始使用
+{{< /admonition >}}
