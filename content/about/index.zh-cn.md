@@ -9,6 +9,32 @@ categories: []
 author: "Sidney Zhang"
 ---
 
+### 2025-06-29 ：无名至无始
+
+以前，我的博客叫做“无·名”，不过现在我想到了一个更好的名字：无始斋·空。
+
+虚空间，一处僻壤，一座书斋。太多的来往，现在已经很难说哪里开始的。
+契为“无始”。人生似也如是，呱呱落地那一刻，随着父母老去，记忆只剩下空幻的一瞬，
+成长的每一天，也渐行渐远，环顾四周，友散情薄，唯有妻、老。
+
+潸然间，却也不知心之所至，又阑风中。
+
+想起那天登山，微微的风，绕过一山，又是一山，
+
+蜿蜒上下，携妻观岩，龙虎连佛龛。
+
+此间通天落山涧，一向孤来相往，多少闲愁往掷，随流而去。
+
+只说，我不知道，不知道也。
+
+故云：
+
+虚空生妙有
+
+静极见天心
+
+-----
+
 ### 2018-02-25 ：新的开始
 
 {{< admonition type=quote title="老子《道德经 二十四章》" open=true >}}
@@ -35,26 +61,33 @@ author: "Sidney Zhang"
 
 {{<bilibili BV1XKNAePEoq>}}
 
-
 -----
 
-### 2025-06-29 ：无名至无始
+### 开放密钥
 
-以前，我的博客叫做“无·名”，不过现在我想到了一个更好的名字：无始斋·空。
+```
+-----BEGIN PGP PUBLIC KEY BLOCK-----
 
-虚空间，一处僻壤，一座书斋。太多的来往，现在已经很难说哪里开始的。
-契为“无始”。人生似也如是，呱呱落地那一刻，随着父母老去，记忆只剩下空幻的一瞬，
-成长的每一天，也渐行渐远，环顾四周，友散情薄，唯有妻、老。
-
-潸然间，却也不知心之所至，又阑风中。
-
-想起那天登山，微微的风，绕过一山，又是一山，蜿蜒上下，携妻观岩，龙虎连佛龛。
-此间通天落山涧，一向孤来相往，多少闲愁往掷，随流而去。
-
-只说，我不知道，不知道也。
-
-故云：
-
-虚空生妙有
-
-静极见天心
+mDMEaMKXyxYJKwYBBAHaRw8BAQdA+w1ER7R/TgchKGr5pJP5DBkVwqEEWbiquMWm
+s1Xg4860LVNpZG5leVpoYW5nIChHaXRodWItcHJpdmF0ZSkgPGxpYW5neWlAbWUu
+Y29tPoiZBBMWCgBBFiEE7MF3mAO6FWW7pkcCKT+q4VyG5yYFAmjCl8sCGwMFCQWj
+moAFCwkIBwICIgIGFQoJCAsCBBYCAwECHgcCF4AACgkQKT+q4VyG5yZBAQD/fOno
+hUD4zitDQcOdnUUPLd1oLn6yz2ZwVtfWMJEqwk8A/1mH4C1Xg9yoHtdEtOUzmd5n
+pMQHbiPrUqu8gvcDpt0JuDgEaMKXyxIKKwYBBAGXVQEFAQEHQEHsIfnx+7ySDLLT
+k8mavP/P2YSp5AztUcxvymuCFuwnAwEIB4h+BBgWCgAmFiEE7MF3mAO6FWW7pkcC
+KT+q4VyG5yYFAmjCl8sCGwwFCQWjmoAACgkQKT+q4VyG5yYfVQEA2B6O+Ms+8ljC
+j+fKcPCOVd+jf8btIsWXB8S2Ul7AIH8BAJC3cFXgfgrgPoIkxqUMK4NW+TIkCoz9
+4zry2L9oCIsPuDMEaMKYfhYJKwYBBAHaRw8BAQdAwkN2IRW3Dv0ZV1AvQb5m4vTB
+/Af0GKU8ZdA4iQCHNhqI9QQYFgoAJhYhBOzBd5gDuhVlu6ZHAik/quFchucmBQJo
+wph+AhsCBQkFo5qAAIEJECk/quFchucmdiAEGRYKAB0WIQRcKz8ojsIFABgwG38T
+gd+dNV1ZvwUCaMKYfgAKCRATgd+dNV1Zv4wKAQD7O1uQiDTkMULbgX0lPU/sEQpw
+hAbmG4pO7oLbGjjRvgEA9Iz9ysFngO2br3+NeNjS1d58qwZaXUphYHukB0So2wWo
+wwEA2chTXZpG2gQDz36DxqtVFB560S4mdPrcY7HuMv5u71kA/i+GPURo0AP1AJXZ
+og2G0mP4qvY8lY3bHCgTc/H1gXoEuDMEaMKYuhYJKwYBBAHaRw8BAQdAEazrIVv7
+CuVpD6MltIqhOY8b87F3Rk+nueIjNTOmu4WIfgQYFgoAJhYhBOzBd5gDuhVlu6ZH
+Aik/quFchucmBQJowpi6AhsgBQkFo5qAAAoJECk/quFchucmPtoA/jJtAF34cN9a
+b5B0J/LTj25vBIPHcI7/FlzzPncONVskAQCiKggersnIX8TnT8U+gR5V/vcE+Wcm
+RgMiQnt6pAHUCg==
+=Wmyy
+-----END PGP PUBLIC KEY BLOCK-----
+```
