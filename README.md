@@ -2,13 +2,19 @@
 
 存储在Github上，然后在[netlify](https://netlify.com)上发布的。
 
-所有文章的版权采用 [CC-BY-NC-ND 4.0](http://creativecommons.org/licenses/by-nc-nd/4.0/)协议共享。
+所有文章的版权采用 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)协议共享。
 
 网站管理、构建方式基于 [Hugo](https://gohugo.io/) 。
 
 主题由来源 [Even](https://github.com/olOwOlo/hugo-theme-even) 。
 
-**更新**
+## 更新
+
+### 2025-09-17
+
+改变，永远不晚。
+
+### 2021-06-16
 
 这真的是一次偶然。颇有重新开始的感觉。也许，这就是我需要的，不能停下，要用各种方法继续走下去，后面会遇到什么真的不知道，期望也只有走下去才会遇到。 —— 2021-06-16
 
