@@ -47,7 +47,7 @@ comment:
   # ...
 ---
 
-{{< admonition type=quote title="[_@来源_ Linux.do 帖子](https://linux.do/t/756775/20)" open=true >}}
+{{< admonition type=quote title="Linux.do 帖子^[1]" open=true >}}
 研究haskell,lean4,用于数学抽象。
 {{< /admonition >}}
 
@@ -97,6 +97,9 @@ Lean4的确可以作为一般的编程语言来看，但整体代码管理、使
 
 哦，对了，想起一个有趣的。Haskell Curry 与 William Alvin Howard 先后接续的完善了这个逻辑同构，
 所以这个结构就叫做Curry-Howard同构。
-Haskell这个编程语言也是为了纪念一下Haskell Curry的共享，而取的这个名字。
+Haskell这个编程语言也是为了纪念一下Haskell Curry的贡献，而取的这个名字。
 Currying（柯里化）也是为了纪念Haskell Curry，他把链式单参函数的数学逻辑推广到λ演算中。
 Curry简直就是最早的函数式程序语言奠基者了吧？或者，函数式编程的大魔王？
+
+引用：
+ - [1] [Linux.do 帖子](https://linux.do/t/756775/20)
