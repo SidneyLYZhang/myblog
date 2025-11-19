@@ -7,25 +7,39 @@ tags: ["Maths", "DL", "Thinking"]
 categories: ["数学", "深度学习", "笔记"]
 author: "Sidney Zhang"
 draft: true
-# You can also close(false) or open(true) something for this content.
-# P.S. comment can only be closed
-comment: false
-toc: true
-autoCollapseToc: false
-postMetaInFooter: false
-# You can also define another contentCopyright. e.g. contentCopyright: "This is another copyright."
-contentCopyright: true
-reward: false
-mathjax: true
-mathjaxEnableSingleDollar: true
-comment: false
-toc: true
-autoCollapseToc: false
-postMetaInFooter: false
-contentCopyright: false
-reward: false
-mathjax: true
-mathjaxEnableSingleDollar: true
+
+featuredImage: ""
+featuredImagePreview: ""
+
+hiddenFromHomePage: false
+hiddenFromSearch: false
+twemoji: true
+lightgallery: true
+ruby: true
+fraction: true
+fontawesome: true
+linkToMarkdown: true
+rssFullText: false
+
+toc:
+  enable: true
+  auto: true
+  keepStatic: false
+code:
+  copy: true
+  maxShownLines: 50
+math:
+  enable: false
+  # ...
+mapbox:
+  enable: true
+  # ...
+share:
+  enable: true
+  # ...
+comment:
+  enable: true
+  # ...
 ---
 
 ### 深度学习的本质
