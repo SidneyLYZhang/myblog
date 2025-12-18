@@ -381,7 +381,7 @@ hasCJKLanguage = true
     # 你的社交 ID
     id = "@sidneyzhang"
     # 你的社交链接的前缀
-    prefix = "https://masto.ai/"
+    prefix = "https://mastodon.social"
     # 当鼠标停留在图标上时的提示内容
     title = "Mastodon"
 
