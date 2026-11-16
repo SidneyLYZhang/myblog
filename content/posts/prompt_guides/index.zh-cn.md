@@ -63,9 +63,9 @@ Prompt 在[字典](https://dictionary.cambridge.org/zhs/%E8%AF%8D%E5%85%B8/%E8%8
 
 所以，对于给AI/LLM的“Prompt”，我们也可以这样理解：它是告诉AI/LLM需要它做什么、提示它继续下去的起始文本。用正式的说法，就是：
 
-{{</* admonition note "定义 Prompt" true */>}}
+{{< admonition type="note" title="定义 Prompt" open=true >}}
 Prompt（提示词）是指用户输入给大型语言模型（LLM）或AI工具的文本指令、问题或任务描述。
-{{</* /admonition */>}}
+{{< /admonition >}}
 
 所以，从一个最直觉的角度来说，你的需求写下来或说出来，给到一个AI或者LLM，那你写或者说的这几句话就是一个Prompt了。那么，为什么有时发给AI的Prompt并不能总是按照我们的预期工作呢？这并非是因为你不会写Prompt，而是现实局限所致的结果。或者说，曾经流行一时的Prompt工程，只是人们为了让AI可以更好地按需求工作，才被临时提高优先级的产物，并不是配合AI工作的必要方式。
 
@@ -107,9 +107,9 @@ Prompt从诞生之初，就作为驱动AI工作的基本内容，过去更像是
 
 让我先把自己常用的Prompt框架**TCCAE**列出来，以此为基础，再来深入讨论Prompt的构建：
 
-{{</* admonition note "Prompt框架" true */>}}
+{{< admonition note "Prompt框架" true >}}
 【任务需求|Task】 ； 【任务上下文|Context】 ； 【任务约束|Constraints】 ； 【验收标准|Acceptance Criteria】 ； 【任务示例|Task Examples】
-{{</* /admonition */>}}
+{{< /admonition >}}
 
 我这个框架的特点，就是除了任务需求，其他信息都是可选的，在实际使用中，根据需要再决定哪些部分写进Prompt，哪些不用加入。
 
@@ -233,32 +233,32 @@ TCCAE并不要求每次都写全五个部分。任务越简单，Prompt就可以
 
 -----
 
-[^1] Petroni et al., Language Models as Knowledge Bases? (2019) arXiv: https://arxiv.org/abs/1909.01066
+[^1]: Petroni et al., Language Models as Knowledge Bases? (2019) arXiv: https://arxiv.org/abs/1909.01066
 
-[^2] Brown et al., Language Models are Few-Shot Learners (2020) arXiv: https://arxiv.org/abs/2005.14165
+[^2]: Brown et al., Language Models are Few-Shot Learners (2020) arXiv: https://arxiv.org/abs/2005.14165
 
-[^3] Wei et al., Chain-of-Thought Prompting Elicits Reasoning in Large Language Models (2022) arXiv: https://arxiv.org/abs/2201.11903
+[^3]: Wei et al., Chain-of-Thought Prompting Elicits Reasoning in Large Language Models (2022) arXiv: https://arxiv.org/abs/2201.11903
 
-[^4] Kojima et al., Large Language Models are Zero-Shot Reasoners (2022) arXiv: https://arxiv.org/abs/2205.11916
+[^4]: Kojima et al., Large Language Models are Zero-Shot Reasoners (2022) arXiv: https://arxiv.org/abs/2205.11916
 
-[^5] Wang et al., Self-Consistency Improves Chain of Thought Reasoning in Language Models (2022) arXiv: https://arxiv.org/abs/2203.11171
+[^5]: Wang et al., Self-Consistency Improves Chain of Thought Reasoning in Language Models (2022) arXiv: https://arxiv.org/abs/2203.11171
 
-[^6] Yao et al., ReAct: Synergizing Reasoning and Acting in Language Models (2022/2023) arXiv: https://arxiv.org/abs/2210.03629
+[^6]: Yao et al., ReAct: Synergizing Reasoning and Acting in Language Models (2022/2023) arXiv: https://arxiv.org/abs/2210.03629
 
-[^7] Yao et al., Tree of Thoughts: Deliberate Problem Solving with Large Language Models (2023) arXiv: https://arxiv.org/abs/2305.10601
+[^7]: Yao et al., Tree of Thoughts: Deliberate Problem Solving with Large Language Models (2023) arXiv: https://arxiv.org/abs/2305.10601
 
-[^8] Besta et al., Graph of Thoughts: Solving Elaborate Problems with Large Language Models (2023) arXiv: https://arxiv.org/abs/2308.09687
+[^8]: Besta et al., Graph of Thoughts: Solving Elaborate Problems with Large Language Models (2023) arXiv: https://arxiv.org/abs/2308.09687
 
-[^9] Mei et al., A Survey of Context Engineering for Large Language Models (2025) arXiv: https://arxiv.org/abs/2507.13334
+[^9]: Mei et al., A Survey of Context Engineering for Large Language Models (2025) arXiv: https://arxiv.org/abs/2507.13334
 
-[^10] Liu et al., Pre-train, Prompt, and Predict: A Systematic Survey of Prompting Methods in Natural Language Processing (2021) arXiv: https://arxiv.org/abs/2107.13586
+[^10]: Liu et al., Pre-train, Prompt, and Predict: A Systematic Survey of Prompting Methods in Natural Language Processing (2021) arXiv: https://arxiv.org/abs/2107.13586
 
-[^11] https://4kfsjuj.s.gy/triro-framework
+[^11]: https://4kfsjuj.s.gy/triro-framework
 
-[^12] https://www.ctco.blog/posts/effective-prompt-engineering/
+[^12]: https://www.ctco.blog/posts/effective-prompt-engineering/
 
-[^13] https://4kfsjuj.s.gy/sDD2gi
+[^13]: https://4kfsjuj.s.gy/sDD2gi
 
-[^14] https://adasci.org/blog/openais-new-guide-on-prompt-engineering-six-strategies-for-better-results
+[^14]: https://adasci.org/blog/openais-new-guide-on-prompt-engineering-six-strategies-for-better-results
 
-[^15] Jeoung et al., PromptPrism: A Linguistically-Inspired Taxonomy for Prompts (2026) arXiv: https://arxiv.org/abs/2505.12592
+[^15]: Jeoung et al., PromptPrism: A Linguistically-Inspired Taxonomy for Prompts (2026) arXiv: https://arxiv.org/abs/2505.12592
